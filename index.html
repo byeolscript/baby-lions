@@ -2,19 +2,13 @@
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>프로젝트 - CSS</title>
-    <link rel="icon" href="/vite.svg" />
-    <link rel="preload" as="font" href="/font/woff2/PretendardVariable.woff2" crossorigin="anonymous" />
-    <link rel="stylesheet" as="style" href="/font/pretendardvariable.css" />
-    <link rel="stylesheet" as="style" href="/src/css/download.css" />
-    <link rel="stylesheet" as="style" href="/src/css/about.css" />
-    <link rel="stylesheet" as="style" href="/src/css/Apply.css" />
-    <link rel="stylesheet" as="style" href="/src/css/download.css" />
-    <link rel="stylesheet" as="style" href="/src/css/footer.css" />
-    <link rel="stylesheet" as="style" href="/src/css/nav-banner.css" />
-    <link rel="stylesheet" as="style" href="/src/css/QnA.css" />
-    <script type="module" src="/src/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UT-nav-banner</title>
+    <link rel="shortcut icon" href="/favicon/likelion.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon/likelion.svg" type="image/svg" />
+    <link rel="preload" as="font" href="/font/suit/SUIT-Variable.woff2" />
+    <link rel="stylesheet" href="/font/suit/SUIT-Variable.css" />
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
     <main div class="uberui">
@@ -110,6 +104,7 @@
         </div>
       </div>
     </main>
+
     <section class="about">
       <!-- 1.회사소개 -->
       <section class="company">
@@ -141,6 +136,73 @@
         <button class="plus" aria-label="뉴스룸 자세히보기">자세히보기</button>
       </section>
     </section>
+
+    <section class="ut-download">
+      <div class="card-container" role="group">
+        <strong class="ut-title">UT 앱에서 더욱 다양한 기능을 만나보세요</strong>
+        <div class="card" aria-label="승객 앱 다운로드">
+          <svg class="logo" aria-hidden="true" width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M84.5873 36.3252H70.72V78.5783H84.5873V36.3252Z" fill="url(#paint0_linear_160_529)" />
+            <path d="M104 24.0596H51.3074V36.3274H104V24.0596Z" fill="url(#paint1_linear_160_529)" />
+            <path d="M37.44 24.0596V67.673H13.8674V24.0596H0V56.7717C0 71.5585 10.7994 79.9429 25.6526 79.9429C40.5059 79.9429 51.3053 71.5585 51.3053 56.7717V24.0596H37.44Z" fill="#0075FF" />
+            <defs>
+              <linearGradient id="paint0_linear_160_529" x1="77.6533" y1="78.8855" x2="77.6533" y2="37.3241" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#EF5394" />
+                <stop offset="0.65" stop-color="#8B52A0" />
+                <stop offset="1" stop-color="#5D4EA1" />
+              </linearGradient>
+              <linearGradient id="paint1_linear_160_529" x1="51.6423" y1="30.1924" x2="103.984" y2="30.1924" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#65C081" />
+                <stop offset="0.0637" stop-color="#62B68B" />
+                <stop offset="0.2224" stop-color="#5AA49E" />
+                <stop offset="0.3821" stop-color="#5495AB" />
+                <stop offset="0.5406" stop-color="#5089B3" />
+                <stop offset="0.6972" stop-color="#4D80B8" />
+                <stop offset="0.8513" stop-color="#4B7BBB" />
+                <stop offset="1" stop-color="#497ABD" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <strong class="text">승객 앱 다운로드</strong>
+          <a href="https://www.uber.com/global/en/ride/app/?referrer=singular_click_id%3Dca27ed3b-52c4-4811-a0af-acb315b9497e" class="link" aria-label="다운로드 하기">
+            <svg class="arrow" aria-hidden="true" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M46.6666 28L47.3737 27.2929L48.0808 28L47.3737 28.7071L46.6666 28ZM11.6666 29C11.1143 29 10.6666 28.5523 10.6666 28C10.6666 27.4477 11.1143 27 11.6666 27V29ZM33.3737 13.2929L47.3737 27.2929L45.9595 28.7071L31.9595 14.7071L33.3737 13.2929ZM47.3737 28.7071L33.3737 42.7071L31.9595 41.2929L45.9595 27.2929L47.3737 28.7071ZM46.6666 29H11.6666V27H46.6666V29Z" fill="#0075FF" />
+            </svg>
+          </a>
+        </div>
+        <div class="card" aria-label="기사 앱 다운로드">
+          <svg class="logo" aria-hidden="true" width="104" height="104" viewBox="0 0 104 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M84.5873 36.3252H70.72V78.5783H84.5873V36.3252Z" fill="url(#paint0_linear_160_529)" />
+            <path d="M104 24.0596H51.3074V36.3274H104V24.0596Z" fill="url(#paint1_linear_160_529)" />
+            <path d="M37.44 24.0596V67.673H13.8674V24.0596H0V56.7717C0 71.5585 10.7994 79.9429 25.6526 79.9429C40.5059 79.9429 51.3053 71.5585 51.3053 56.7717V24.0596H37.44Z" fill="#0075FF" />
+            <defs>
+              <linearGradient id="paint0_linear_160_529" x1="77.6533" y1="78.8855" x2="77.6533" y2="37.3241" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#EF5394" />
+                <stop offset="0.65" stop-color="#8B52A0" />
+                <stop offset="1" stop-color="#5D4EA1" />
+              </linearGradient>
+              <linearGradient id="paint1_linear_160_529" x1="51.6423" y1="30.1924" x2="103.984" y2="30.1924" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#65C081" />
+                <stop offset="0.0637" stop-color="#62B68B" />
+                <stop offset="0.2224" stop-color="#5AA49E" />
+                <stop offset="0.3821" stop-color="#5495AB" />
+                <stop offset="0.5406" stop-color="#5089B3" />
+                <stop offset="0.6972" stop-color="#4D80B8" />
+                <stop offset="0.8513" stop-color="#4B7BBB" />
+                <stop offset="1" stop-color="#497ABD" />
+              </linearGradient>
+            </defs>
+          </svg>
+          <strong class="text">기사 앱 다운로드</strong>
+          <a href="https://www.uber.com/global/en/ride/app/?referrer=singular_click_id%3Dca27ed3b-52c4-4811-a0af-acb315b9497e" class="link" aria-label="다운로드 하기">
+            <svg class="arrow" aria-hidden="true" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M46.6666 28L47.3737 27.2929L48.0808 28L47.3737 28.7071L46.6666 28ZM11.6666 29C11.1143 29 10.6666 28.5523 10.6666 28C10.6666 27.4477 11.1143 27 11.6666 27V29ZM33.3737 13.2929L47.3737 27.2929L45.9595 28.7071L31.9595 14.7071L33.3737 13.2929ZM47.3737 28.7071L33.3737 42.7071L31.9595 41.2929L45.9595 27.2929L47.3737 28.7071ZM46.6666 29H11.6666V27H46.6666V29Z" fill="#0075FF" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
     <section class="question">
       <h2>자주 하는 질문</h2>
       <ul>
@@ -208,6 +270,7 @@
         </li>
       </ul>
     </section>
+
     <main class="wrapper">
       <section class="apply-container">
         <!-- 좌측 영역 -->
@@ -258,9 +321,10 @@
         </div>
       </section>
     </main>
+
     <div class="footer-container">
       <div class="footer-top">
-        <img src="/src/assets/logo.svg" alt="우버" class="footer-logo" />
+        <img src="./src/assets/logo.svg" alt="우버" class="footer-logo" />
         <a href="/">고객지원 센터로 가기</a>
       </div>
       <div class="footer-content">
@@ -284,30 +348,30 @@
       <nav class="footer-nav" aria-label="푸터 내비게이션">
         <!-- 소셜 아이콘 -->
         <div class="nav-group">
-          <a href="https://www.facebook.com/uber/?locale=ko_KR" target="_blank" rel="noopener noreferrer" aria-label="우버 페이스북"> <img src="/src/assets/Facebook.svg" alt="페이스북" class="facebook" /></a>
-          <a href="https://www.youtube.com/channel/UCgnxoUwDmmyzeigmmcf0hZA" target="_blank" rel="noopener noreferrer" aria-label="우버 유튜브"> <img src="/src/assets/Youtube.svg" alt="유튜브" class="youtube" /></a>
-          <a href="https://www.instagram.com/uber/" target="_blank" rel="noopener noreferrer" aria-label="우버 인스타그램"><img src="/src/assets/Instagram.svg" alt="인스타그램" class="instagram" /></a>
+          <a href="https://www.facebook.com/uber/?locale=ko_KR" target="_blank" rel="noopener noreferrer" aria-label="우버 페이스북"> <img src="./src/assets/Facebook.svg" alt="페이스북" class="facebook" /></a>
+          <a href="https://www.youtube.com/channel/UCgnxoUwDmmyzeigmmcf0hZA" target="_blank" rel="noopener noreferrer" aria-label="우버 유튜브"> <img src="./src/assets/Youtube.svg" alt="유튜브" class="youtube" /></a>
+          <a href="https://www.instagram.com/uber/" target="_blank" rel="noopener noreferrer" aria-label="우버 인스타그램"><img src="./src/assets/Instagram.svg" alt="인스타그램" class="instagram" /></a>
         </div>
 
         <!-- 언어 및 위치 -->
         <div class="nav-group">
           <!-- 언어 -->
           <div class="icon-with-text">
-            <img src="/src/assets/World.svg" alt="언어 선택" class="language" />
+            <img src="./src/assets/World.svg" alt="언어 선택" class="language" />
             <span>한국어</span>
           </div>
 
           <!-- 위치 -->
           <div class="icon-with-text">
-            <img src="/src/assets/Pin.svg" alt="위치 선택" class="pin" />
+            <img src="./src/assets/Pin.svg" alt="위치 선택" class="pin" />
             <span>서울</span>
           </div>
         </div>
 
         <!-- 앱 다운로드 -->
         <div class="nav-group">
-          <a href="https://play.google.com/store/apps/details?id=com.ubercab&hl=zu&gl=KR&pli=1" target="_blank" rel="noopener noreferrer" aria-label="구글 다운로드"><img src="/src/assets/googlePlay.svg" alt="구글 플레이 바로가기" class="googlePaly" /></a>
-          <a href="https://apps.apple.com/kr/app/uber-taxi-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368" target="_blank" rel="noopener noreferrer" aria-label="애플 다운로드"><img src="/src/assets/appStore.svg" alt="애플 스토어 바로가기" class="appStore" /></a>
+          <a href="https://play.google.com/store/apps/details?id=com.ubercab&hl=zu&gl=KR&pli=1" target="_blank" rel="noopener noreferrer" aria-label="구글 다운로드"><img src="./src/assets/googlePlay.svg" alt="구글 플레이 바로가기" class="googlePaly" /></a>
+          <a href="https://apps.apple.com/kr/app/uber-taxi-%EC%9A%B0%EB%B2%84-%ED%83%9D%EC%8B%9C-%ED%83%9D%EC%8B%9C-%ED%98%B8%EC%B6%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id368677368" target="_blank" rel="noopener noreferrer" aria-label="애플 다운로드"><img src="./src/assets/appStore.svg" alt="애플 스토어 바로가기" class="appStore" /></a>
         </div>
       </nav>
       <div class="footer-address">

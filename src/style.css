@@ -1,1 +1,7 @@
-/* CSS 스타일을 작성해 주세요. */ 
+/* CSS 스타일을 작성해 주세요. */
+@import './css/nav-banner.css';
+@import './css/about.css';
+@import './css/download.css';
+@import './css/QnA.css';
+@import './css/Apply.css';
+@import './css/footer.css';
